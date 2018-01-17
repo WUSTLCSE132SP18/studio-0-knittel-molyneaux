@@ -6,7 +6,7 @@ public class Heartbeat {
 			System.out.println((System.currentTimeMillis() - x));
 			x = System.currentTimeMillis();
 			try {
-				Thread.sleep(997);
+				Thread.sleep(1000);
 			} catch (Exception e) {}
 		}
 	}
